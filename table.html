@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables</title>
+</head>
+<body>
+  <header>
+    <div id="portifolio"> <h1> Exercícios Rocketseat </h1> </div>   
+  </header>
+
+  <div id="mnav"> 
+    <nav>
+      <ul>
+        <li class="navigator">
+          <button class="nav" onclick="document.location='index.html'">                      index.html
+          </button>
+        </li>
+      <li class="navigator">
+        <button class="nav" onclick="document.location='page2.html'">                      page2.html
+        </button>
+      </li>
+      <li class="navigator">
+        <button class="nav" onclick="document.location='contact.html'">                      contact.html
+        </button>
+      </li>
+      <li class="navigator">
+        <button class="nav" onclick="document.location='table.html'">                      table.html
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+  <br>
+   <h2>Tabelas:</h2>
+  <table>
+    <caption>Pessoas e Idades</caption>
+    <thead>
+      <tr>  
+        <th>Nome</th>        
+        <th>Idade</th>
+      </tr>
+    </thead>
+    
+    <tr>
+      <td>Davi</td>
+      <td>21</td>
+    </tr>
+    
+    <tr>
+      <td>Márcia</td>      
+      <td>63</td>      
+    </tr>
+    
+    <tr>      
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td>3</td>
+      </tr>
+    </tfoot>
+  </table>
+  
+<br>
+  <br>
+  
+  <table>
+    <caption>Produzidos x Vendidos por loja</caption>
+    <colgroup>
+      <col>
+      <col span="2" style="background-color: #FAC98F">
+      <col span="2" style="background-color: #FDA383">
+    </colgroup>
+    <thead>
+      <tr>
+        <th rowspan="2"></th>
+        <th colspan="2">Afonso Pensa</th>
+        <th colspan="2">Jorjin do maro</th>
+      </tr>
+      <tr>
+        <th>Produzidos</th>
+        <th>Vendidos</th>
+        <th>Produzidos</th>
+        <th>Vendidos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Vassouras</th>
+        <td>50</td>
+        <td>30</td>
+        <td>20</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <th>Baldes</th>
+        <td>10</td>
+        <td>10</td>
+        <td>30</td>
+        <td>25</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
