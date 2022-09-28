@@ -3,6 +3,8 @@ html, body {
   width: 100%;
 }
 
+/* Colors */
+
 :root{
     --header-height: 4.5rem;
 
@@ -22,7 +24,7 @@ body {
   background-color: #F8F1DF;
 }
 
-
+/* Header */
 
 #portifolio {
   background-color: #E0DBBF;
@@ -38,28 +40,34 @@ body {
   margin-right: auto;
 }
 
-#mnav {
-  margin-left: auto;
-  margin-right: auto;
+/* Navigation Bar */
+
+.mnav {
+  align-content: center;
+  display: inline;
 }
 
-.navigator {
-  display: inline;
-  margin-inline: 2rem;
+.bnav {
+  width: 10rem;
+  margin: 1rem;
+  height: 3rem;
+  border-radius: 0.25rem;
+  border-width: 0.001rem;
+  background-color: #FFFDDE;
+  transition: 0.3s;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   
 }
 
-.nav {
-  width: 10rem;
-  margin-top: 1rem;
-  height: 3rem;
-  border-radius: 1rem;
-  background-color: #FFFDDE;
-  transition: 0.3s;
+.bnav:hover {
+  background-color: #E0DBBF;
 }
 
-.nav:hover {
-  background-color: #E0DBBF;
+/* Card Elements */
+
+.grid .card {
+  gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .card {
@@ -68,4 +76,6 @@ body {
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }

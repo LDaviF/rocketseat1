@@ -9,109 +9,103 @@
 </head>
 
 <body>
+  <!-- Header --> 
   <header>
     <div id="portifolio"> <h1> Exercícios Rocketseat </h1> </div> 
   </header>
-  
-  <div id="mnav"> 
-  <nav>
-    <ul>
-      <li class="navigator">
-        <button class="nav" onclick="document.location='index.html'">                      index.html
-        </button>
-      </li>
-      <li class="navigator">
-        <button class="nav" onclick="document.location='page2.html'">                      page2.html
-        </button>
-      </li>
-      <li class="navigator">
-        <button class="nav" onclick="document.location='contact.html'">                      contact.html
-        </button>
-      </li>
-      <li class="navigator">
-        <button class="nav" onclick="document.location='table.html'">                      table.html
-        </button>
-      </li>
-    </ul>
-  </nav>
-</div>
 
- 
-  
+  <!-- Navigation Bar -->
+  <div class="mnav">      
+                
+            <button class="bnav" onclick="document.location='index.html'">                      index.html
+            </button> 
+          
+            <button class="bnav" onclick="document.location='page2.html'">                      page2.html
+            </button>
+           
+            <button class="bnav" onclick="document.location='contact.html'">                      contact.html
+            </button>
+          
+            <button class="bnav" onclick="document.location='table.html'">                      table.html
+            </button>  
+    
+  </div>
+
+  <!-- Content Cards -->
   <section>
-    <div class="card-grid"> 
+    
+    <div class="grid"> 
+      
       <div class="card">
         <h2 class="title-card">About me</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut bibendum nibh. Duis hendrerit ornare accumsan. Phasellus ultrices ante tortor, ut ultrices dolor tristique non.</p>
       </div>
-    </div>
-    
-    <h3>Experiences</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut bibendum nibh. Duis hendrerit ornare accumsan. Phasellus ultrices ante tortor, ut ultrices dolor tristique non.</p>
-    <h3>Hard Skills</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Photoshop</li>
-      <li>JavaScript</li>
-      <li>SAP</li>
-      <li>Python</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut bibendum nibh. Duis hendrerit ornare accumsan. Phasellus ultrices ante tortor, ut ultrices dolor tristique non.</p>
-  </section>
+      
+      <div class="card">
+            <h3>Experiences</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut bibendum nibh. Duis hendrerit ornare accumsan. Phasellus ultrices ante tortor, ut ultrices dolor tristique non.</p>
+      </div>
 
-  <div>
+      <div class="card">
+          <h3>Hard Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Photoshop</li>
+            <li>JavaScript</li>
+            <li>SAP</li>
+            <li>Python</li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut bibendum nibh. Duis hendrerit ornare accumsan. Phasellus ultrices ante tortor, ut ultrices dolor tristique non.</p>
+      </div>
+
+      <div class="card">
     <p>
       Escrevendo um trecho de código no HTML, assim: <code> &lt;body&gt;</code>
     </p>
-  </div>
-
-  <section>
+  
     <ul>
       <li>Usamos <abbr title="Hypertext Markup Language">HTML</abbr> para estruturar documentos web &lt;abbr&gt;</li>
-      <li>
-        <adress>
-          <p>Davi Ferreira</p>
-        </address> &lt;adress&gt; são para detalhes de contato de quem escreveu o HTML
-      </li>
+      <li><adress><p>Davi Ferreira</p></address> &lt;adress&gt; são para detalhes de contato de quem escreveu o HTML</li>
       <li></li>
       <li></li>
       <li></li>
     </ul>
-  </section>
-  <section>
-    <h3>Elemento Âncora, o &lt;a&gt;</h3>
-    Essa tag é uma âncora para outras páginas e tem uma séria de atributos. 
-    Uma tag a pode ter um link URL, um email e até um telefone. Pode ser do tipo Download, do tipo self, em que o link abre na aba atual, e blank, em que o link abre numa nova guia. 
+  </div>
 
-    <h3>
-      Usos da tag âncora
-    </h3>
+      <div class="card">
+      <h3>Elemento Âncora, o &lt;a&gt;</h3>
+      Essa tag é uma âncora para outras páginas e tem uma séria de atributos. 
+      Uma tag a pode ter um link URL, um email e até um telefone. Pode ser do tipo Download, do tipo self, em que o link abre na aba atual, e blank, em que o link abre numa nova guia. 
+  
+      <h3>Usos da tag âncora</h3>
+  
+      <ul>
+        <li><a href="mailtoluisdaviferreira@gmail.com" target="_blank">luisdaviferreira@gmail.com</a></li>
+        <li><a href="tel:+5511976877267">Telefone</a></li>
+        <li><a href="www.google.com">Site</a></li>
+        <li><a href="#about">Sobre</a></li>
+      </ul>
+    </div>
 
-    <ul>
-      <li><a href="mailtoluisdaviferreira@gmail.com" target="_blank">luisdaviferreira@gmail.com</a></li>
-      <li><a href="tel:+5511976877267">Telefone</a></li>
-      <li><a href="www.google.com">Site</a></li>
-      <li><a href="#about">Sobre</a></li>
-    </ul>
-    <div>
-       <p>Sobre a âncora:
-      para navegar nos diretórios do documento fonte do site escreva "nomeDocumento.html" ou "diretório/nomeDocumento.html" para entrar num diretório. 
-        <br>
-      para sair escreva "../nomeDocumento.html" e assim estará num diretório acima. 
-        <br>
-        Para o diretório raiz escreva "./nomeDocumento.html".
-      </p>
+      <div class="card">
+        <h3>Sobre a âncora:</h3>
+         <p>para navegar nos diretórios do documento fonte do site escreva "nomeDocumento.html" ou "diretório/nomeDocumento.html" para entrar num diretório. 
+          <br>
+        para sair escreva "../nomeDocumento.html" e assim estará num diretório acima. 
+          <br>
+          Para o diretório raiz escreva "./nomeDocumento.html".
+        </p>
+      </div>
 
-      <p>
+      <div class="card"> <p>
         No caminho absoluto inclui-se o protocolo e o nome de domínio e sempre apontará para o mesmo local, já que é absoluto. Como por exemplo esta URL http://www.rocketseat.com.br/projeto/index.html é absoluto(mesmo não levando a lugar nenhum, é apenas um exemplo).
       <br>
 No caminho relativo, é relativo à página, pasta aberta, ou seja, se não tiver irá consequentemente dar erro, apontará para lugares diferentes. Como por exemplo apenas google.com.
-      </p>
-  </section>
-    </div>
-  </section>
-    <h2>Lista de descrição</h2>
+      </p> </div>
+
+      <div class="card">
+     <h2>Lista de descrição</h2>
       <dl>
         <dt>Hypertext</dt>
         <dd>Hipertexto, com possibilidades de referências internas e externas.</dd>
@@ -127,7 +121,36 @@ No caminho relativo, é relativo à página, pasta aberta, ou seja, se não tive
 
         <dt>&lt;div&gt;</dt>
         <dd>Essa tag cria uma pequena caixa divisória, vertical</dd>
-      </dl>
+      </dl
+  </div>
+      
+    </div>
+
+    
+
+    
+
+    
+  </section>
+
+  
+
+    
+  <section>
+
+    
+    <div>
+
+      
+
+      
+      
+  </section>
+    </div>
+  </section>
+
+ 
+   >
   </section>
 
 
@@ -142,10 +165,7 @@ No caminho relativo, é relativo à página, pasta aberta, ou seja, se não tive
   
   
 
- <!--
-This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
--->
-<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+ 
 </body>
 
 </html>
