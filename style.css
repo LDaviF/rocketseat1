@@ -75,7 +75,20 @@ body {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: 0.25rem 0.25rem 0 0;
-  text-align: center;
+  text-align: left;
   width: 70%;
   margin: 0 auto;
+  align
+}
+
+.cardtitle {
+  width: 50%;
+  margin: -3.5rem 1rem;
+  display: flex;
+}
+
+.cardcontent {
+  /* display: block;*/ 
+  margin: 4rem 1rem;
+  text-align: justify;
 }
