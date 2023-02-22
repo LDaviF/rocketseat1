@@ -4,11 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <script type="text/javascript" src="script.js"></script>
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/e8923abbf3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
   <!-- Header --> 
   <header>
     <div id="portifolio"> <h1> Exercícios Rocketseat </h1> </div> 
@@ -27,7 +30,10 @@
             </button>
           
             <button class="bnav" onclick="document.location='table.html'">                      table.html
-            </button>  
+            </button>
+
+            <button class="bnav" onclick="document.location='calc.html'">                      calc.html
+            </button>
     
   </div>
 
@@ -136,7 +142,31 @@ No caminho relativo, é relativo à página, pasta aberta, ou seja, se não tive
     
   </section>
 
-  
+  <style>
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
     
   <section>
@@ -164,6 +194,10 @@ No caminho relativo, é relativo à página, pasta aberta, ou seja, se não tive
 
       Citações usando &lt;q&gt; são para aquelas com uma linha. 
   </section>
+
+  
+
+  <button id="changeTheme"><i class="fa-solid fa-moon"></i></button>
 
   
   
